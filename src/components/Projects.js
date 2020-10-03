@@ -5,7 +5,7 @@ function Projects(props) {
 
     const getProjects = async () => {
         try {
-            const response = fetch('/projects')
+            const response = fetch('/protfolios')
             const projects = await (await response).json();
             console.log(projects);
             setProjects(projects);
@@ -29,8 +29,7 @@ function Projects(props) {
                     <div className="projects" key={project.id}>
                         <h4>Title: <small>{project.title}</small></h4>
                         <h4>Description: <small>{project.description}</small></h4>
-                        <h4>Repo Backend: <small>{project.repo_backend}</small></h4>
-                        <h4>Repo Frontend: <small>{project.repo_frontend}</small></h4>
+                        <h4>Project Repo: <small>{project.repo}</small></h4>
                         <h4>Live Site: <small>{project.live_site}</small></h4>
                         <br />
                     </div>
