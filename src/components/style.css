@@ -1,0 +1,48 @@
+body {
+    background: rgb(0,0,0,0.06);
+}
+header{
+    background-image: url(https://i.imgur.com/V5y3Xn2.png);
+    text-align: center;
+    background-size: cover;
+    color: white;
+}
+h1 {
+    font-size: 50px;
+}
+.headshot{
+    background: rgba(0,0,0,0.5);
+}
+img {
+    margin: 30px 0px 20px 0px;
+    border: 7px solid white;
+    border-radius: 10px;
+}
+ul {
+    padding: 20px;
+    background: rgba(0,0,0,0.8);
+}
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+a{
+    color: rgb(255,165,0);
+    font-size: 1.4em;
+}
+/* .name{
+    background: rgba(0,0,0,0.8);
+} */
+.myname{
+    font-size: 2.3em;
+}
+@media (max-width: 500px) {
+h1 {
+        font-size: 36px;
+        padding: 5px;
+    }
+    li {
+        padding: 5px;
+        display: block;
+    }
+}

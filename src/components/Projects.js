@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Layout from './Layout.js';
 
 function Projects(props) {
     const [projects, setProjects] = useState([]);
@@ -23,6 +24,8 @@ function Projects(props) {
 
     return (
         <>
+        <Layout />
+        <div>
             <h2>All Projects</h2>
             {projects.map(project => {
                 return (
@@ -35,6 +38,7 @@ function Projects(props) {
                     </div>
                 )
             })}
+        </div>
         </>
     )
 }
