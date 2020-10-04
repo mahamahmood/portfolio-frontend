@@ -25,30 +25,30 @@ function Resume(props) {
                     <div>
                         <h4>General Assembly</h4>
                         <h5>Software Engineering Fellow<small>, July 2020 - Oct 2020</small></h5>
-                        <div>
-                            <p>A 12-week long Full-time program that consists of lectures, labs, individual and group projects, and a minimum of 4 hours of homework a day</p>
-                            <p>Developing full-stack applications utilizing the latest technologies and programming languages</p>
-                            <p>Attending weekly standups to report on progress and presenting projects on presentation days</p>
-                        </div>
+                        <ol>
+                            <p>- A 12-week long Full-time program that consists of lectures, labs, individual and group projects, and a minimum of 4 hours of homework a day</p>
+                            <p>- Developing full-stack applications utilizing the latest technologies and programming languages</p>
+                            <p>- Attending weekly standups to report on progress and presenting projects on presentation days</p>
+                        </ol>
                     </div>
                     <div>
                         <h4>Audio Transcription Center</h4>
                         <h5>Digital Marketing Associate<small>, May 2020 - Present</small></h5>
-                        <div>
-                            <p>Assist the ATC team with email marketing and other digital marketing efforts by executing campaigns,reporting on results, and providing feedback and best practices</p>
-                        </div>
+                        <ol>
+                            <p>- Assist the ATC team with email marketing and other digital marketing efforts by executing campaigns,reporting on results, and providing feedback and best practices</p>
+                        </ol>
                     </div>
                     <div>
                         <h4>edX, Inc.</h4>
                         <h5>Email Marketing Coordinator/Marketing Coordinator/Marketing Intern<small>, May 2017 - Sep 2019</small></h5>
-                        <div>
-                            <p>Produced and deployed email marketing campaigns to engage, retain, and convert learners</p>
-                            <p>Build the very first anniversary campaign dedicated to improving customer loyalty</p>
-                            <p>Came up with ideas for A/B testing, themed newsletters, triggered emails, and email template adjustments that increased engagement and revenue</p>
-                            <p>Launched browse abandoned and re-engagement triggered emails as well as setting up a personalization for edX Spanish email marketing campaigns</p>
-                            <p>Managed, prioritized, and published a large volume of content on the marketing site using Drupal and Django</p>
-                            <p>Handled escalations and responded to partners (including Harvard and MIT ) and stakeholders’ questions and concerns throughout the process of content creation and post publication</p>
-                        </div>
+                        <ol>
+                            <p>- Produced and deployed email marketing campaigns to engage, retain, and convert learners</p>
+                            <p>- Build the very first anniversary campaign dedicated to improving customer loyalty</p>
+                            <p>- Came up with ideas for A/B testing, themed newsletters, triggered emails, and email template adjustments that increased engagement and revenue</p>
+                            <p>- Launched browse abandoned and re-engagement triggered emails as well as setting up a personalization for edX Spanish email marketing campaigns</p>
+                            <p>- Managed, prioritized, and published a large volume of content on the marketing site using Drupal and Django</p>
+                            <p>- Handled escalations and responded to partners (including Harvard and MIT ) and stakeholders’ questions and concerns throughout the process of content creation and post publication</p>
+                        </ol>
                     </div>
                 </div>
                 <div className="card border-secondary card-body mb-3">
