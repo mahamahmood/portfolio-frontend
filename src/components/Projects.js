@@ -8,7 +8,7 @@ function Projects(props) {
 
     const getProjects = async () => {
         try {
-            const response = fetch('/protfolios')
+            const response = fetch('https://maha-portfolio-app-api.herokuapp.com/protfolios')
             const projects = await (await response).json();
             setProjects(projects);
         } catch (error) {
