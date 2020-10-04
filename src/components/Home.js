@@ -7,7 +7,6 @@ function Home(props) {
         <>
             <div className="main-container">
                     <Layout />
-                   
             </div>
         </>
     )
