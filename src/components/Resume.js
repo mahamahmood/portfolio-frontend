@@ -6,15 +6,13 @@ function Resume(props) {
     return (
         <>
             <Layout />
-            <div className="container">
-                <div>
-                    <h2>ABOUT ME</h2>
+            <div className="resume-container container">
+                <div className="card border-secondary card-body mb-3">
+                    <h2><u>ABOUT ME</u></h2>
                     <p>I’m a full-stack web developer and amateur photographer. I work with a “can-do”, “let’s test it out”, and “will try again” attitude. My previous experience in marketing gave me the ability to be adaptable and work under pressure. I can be analytical, creative, and technical whenever needed</p>
                 </div>
-                <div>
-                    <h2>SKILLS</h2>
-                    <h5>Programming</h5>
-                    <p>HTML5, CSS3, SASS, Bootstrap, JavaScript ES6, JQuery, RESTful APIs, ReactJS, NodeJS, ExpressJS, Ruby, Ruby on Rails, Mongoose, MongoDB, PostgreSQL, SQL, Git/GitHub, Heroku, Postman, Drupal, Django, VS Code, Chrome dev tools, React dev tools, Jira, Trello</p>
+                <div className="card border-secondary card-body mb-3">
+                    <h2><u>SKILLS</u></h2>
                     <h5>Programming</h5>
                     <p>HTML5, CSS3, SASS, Bootstrap, JavaScript ES6, JQuery, RESTful APIs, ReactJS, NodeJS, ExpressJS, Ruby, Ruby on Rails, Mongoose, MongoDB, PostgreSQL, SQL, Git/GitHub, Heroku, Postman, Drupal, Django, VS Code, Chrome dev tools, React dev tools, Jira, Trello</p>
                     <h5>Interpersonal Skills</h5>
@@ -22,8 +20,8 @@ function Resume(props) {
                     <h5>Marketing</h5>
                     <p>Email Marketing, SEO, Social Media, Graphic Design, User Experience, Google Analytics, Sailthru, Litmus, Hubspot, Adobe Photoshop, A/B Testing</p>
                 </div>
-                <div>
-                    <h2>EXPERIENCE</h2>
+                <div className="card border-secondary card-body mb-3">
+                    <h2><u>EXPERIENCE</u></h2>
                     <div>
                         <h4>General Assembly</h4>
                         <h5>Software Engineering Fellow<small>, July 2020 - Oct 2020</small></h5>
@@ -53,12 +51,12 @@ function Resume(props) {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <h2>PROJECTS</h2>
+                <div className="card border-secondary card-body mb-3">
+                    <h2><u>PROJECTS</u></h2>
                     <p><a className="link-projects" href="/projects"><u>See Highlighted Projects</u></a></p>
                 </div>
-                <div>
-                    <h2>EDUCATION</h2>
+                <div className="card border-secondary card-body mb-3">
+                    <h2><u>EDUCATION</u></h2>
                     <div>
                         <h4>General Assembly<small>, Oct 2020</small></h4>
                         <p>Software Engineering Immersive</p>
@@ -68,8 +66,8 @@ function Resume(props) {
                         <p>Bachelor of Science in Management with Concentration in Marketing</p>
                     </div>
                 </div>
-                <footer></footer>
             </div>
+            <footer></footer>
         </>
     )
 };
