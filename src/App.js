@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Projects from './components/Projects.js';
-import Home from './components/Home.js';
+import Resume from './components/Resume.js';
 
 function App() {
   // ==== Routes ====
@@ -9,15 +9,19 @@ function App() {
     {
       path: '/',
       exact: true,
-      component: Home,
+      component: Resume,
       key: 'default'
     },
     {
       path: '/projects',
       component: Projects,
       key: 'project'
+    },
+    {
+      path: '/resume',
+      component: Resume,
+      key: 'resume'
     }
-
   ];
  
   return (

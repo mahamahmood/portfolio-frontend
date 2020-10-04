@@ -10,10 +10,10 @@ function NavBar(props) {
                     <div className="name">
                         <ul>
                             <li className="myname"><strong>Maha Mahmood</strong></li>
-                            <li><a id="a"href='/'>Home</a></li>
                             <li><a id="a" href='/projects'>Projects</a></li>
                             <li><a id="a" href='https://www.linkedin.com/in/mahamahmood/' target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                             <li><a id="a" href='https://github.com/mahamahmood' target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                            <li><a id="a" href='/resume'>Resume</a></li>
                         </ul>
                     </div>
                 </div>

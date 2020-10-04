@@ -1,3 +1,4 @@
+/* ---layout, nav, header--- */
 body {
     background: rgb(0,0,0,0.06);
 }
@@ -36,6 +37,9 @@ li {
 .myname{
     font-size: 2.3em;
 }
+/* ---end layout, nav, header--- */
+/* ***************************** */
+/* ---projects cards--- */
 .card {
     width: 40rem;
     margin: 0 auto;
@@ -68,6 +72,19 @@ li {
     font-size: 1.6em;
     text-align: center;
 }
+/* ---end projects cards--- */
+/* ***************************** */
+/* ---home page--- */
+footer{
+    padding-top: 60px;
+}
+.link-projects, .link-projects:hover{
+    color:  rgb(255,165,0);
+}
+
+/* ---end home page--- */
+/* ***************************** */
+/* ---mobile--- */
 @media (max-width: 600px) {
     h1 {
         font-size: 36px;
