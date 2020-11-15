@@ -53,7 +53,7 @@ function Resume(props) {
                 </div>
                 <div className="card border-secondary card-body mb-3">
                     <h2><u>PROJECTS</u></h2>
-                    <p><a className="link-projects" href="/projects"><u>See Highlighted Projects</u></a></p>
+                    <p><strong><a className="link-projects" href="/projects"><u>See Highlighted Projects</u></a></strong></p>
                 </div>
                 <div className="card border-secondary card-body mb-3">
                     <h2><u>EDUCATION</u></h2>
