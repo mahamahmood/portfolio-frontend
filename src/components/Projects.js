@@ -28,9 +28,11 @@ function Projects(props) {
             <Layout />
             <div className="projects-container container">
                 <h2 className="h2-projects"><i>const projects = "Featured Projects"</i></h2>
-                {projects.map((project, idx) => {
-                    return <ProjectCard key={idx} project={project} />
-                })}
+                {/* <div className="row row-cols-1 row-cols-md-2"> */}
+                    {projects.map((project, idx) => {
+                        return <ProjectCard key={idx} project={project} />
+                    })}
+                {/* </div> */}
             </div>
         </>
     )
