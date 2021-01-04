@@ -10,7 +10,7 @@ function App() {
     {
       path: '/',
       exact: true,
-      component: Resume,
+      component: AllProjects,
       key: 'default'
     },
     {
