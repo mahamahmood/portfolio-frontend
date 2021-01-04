@@ -6,7 +6,7 @@ function NavBar(props) {
         <div>
             <header>
                 <div className='headshot'>
-                    <img src="https://i.imgur.com/thO781C.png" alt="maha-headshot" hight="120" width="190" />
+                    <img className="img-headshot" src="https://i.imgur.com/thO781C.png" alt="maha-headshot" hight="120" width="190" />
                     <div className="name">
                         <ul>
                             <li className="myname"><strong>Maha Mahmood</strong></li>

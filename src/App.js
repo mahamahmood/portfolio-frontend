@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Projects from './components/Projects.js';
+// import Projects from './components/Projects.js';
+import AllProjects from './components/NewProjects/AllProjects.js';
 import Resume from './components/Resume.js';
 
 function App() {
@@ -14,9 +15,14 @@ function App() {
     },
     {
       path: '/projects',
-      component: Projects,
+      component: AllProjects,
       key: 'project'
     },
+    // {
+    //   path: '/projects',
+    //   component: Projects,
+    //   key: 'project'
+    // },
     {
       path: '/resume',
       component: Resume,
