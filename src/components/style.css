@@ -70,7 +70,7 @@ li {
     align-items: center;
     text-align: left;
     overflow: hidden;
-    margin: 0px 30px;
+    /* margin: 0px 30px; */
 }
 #card-header{
     background-color: rgba(8,8,8);
